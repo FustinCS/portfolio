@@ -1,0 +1,5 @@
+.mainContainer {
+    margin-top: 96px;
+    background-color: light-dark(#e6e6e6, #1f1f1f);
+    border-top: 2px solid light-dark(#000000, #ffffff);
+}

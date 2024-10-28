@@ -1,0 +1,58 @@
+.mainTitle {
+  font-size: 3.75rem;
+  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+
+  @media(max-width: $mantine-breakpoint-sm) {
+    font-size: 3rem;
+  }
+
+  @media(max-width: $mantine-breakpoint-xs) {
+    font-size: 2rem;
+  }
+}
+
+.secondaryText {
+    font-size: 1.5rem;
+    color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+
+    @media(max-width: $mantine-breakpoint-xs) {
+        font-size: 1.25rem;
+    }
+
+    @media(max-width: $mantine-breakpoint-sm) {
+        font-size: 1rem;
+    }
+}
+
+.linkedin {
+  color: #3ca3da;
+
+  :hover {
+    color: #0077B5;
+  }
+}
+
+.github {
+  color: white;
+
+  :hover {
+    color:rgb(160, 160, 160);
+  }
+}
+
+.mail {
+  color: #eea546;
+
+  :hover {
+    color: #e68c18;
+  }
+}
+
+.resume {
+  color: #f35c5c;
+
+  :hover {
+    color: #fc4444;
+  }
+}
+
