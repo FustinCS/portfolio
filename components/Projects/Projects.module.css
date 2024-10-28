@@ -2,4 +2,41 @@
     margin-top: 96px;
     background-color: light-dark(#e6e6e6, #1f1f1f);
     border-top: 2px solid light-dark(#000000, #ffffff);
+    border-bottom: 2px solid light-dark(#000000, #ffffff);
+    padding-bottom: 96px;
+}
+
+.mainTitle {
+    margin: 24px;
+    padding: 24px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: light-dark(#000000, #ffffff);
+    text-align: center;
+}
+
+.projectsContainer {
+    display: flex;
+    gap: 72px;
+    justify-content: space-between;
+    padding: 24px;
+    margin: 0px;
+    width: 90%;
+    max-width: 1250px;
+    background-color: light-dark(#dfdfdf, #252525);;
+    align-items: center;
+    border-radius: 8px;
+
+    @media(max-width: $mantine-breakpoint-sm) {
+        flex-direction: column;
+        gap: 32px;
+    }
+}
+
+.imageContainer {
+    min-width: 300px;
+}
+
+.projectImage {
+    border-radius: 8px;
 }

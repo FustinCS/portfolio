@@ -1,3 +1,4 @@
+import { Footer } from "@/components/Footer/Footer";
 import { Header } from "@/components/Header/Header";
 import MainContent from "@/components/MainContent/MainContent";
 import Projects from "@/components/Projects/Projects";
@@ -9,6 +10,7 @@ export default function Home() {
       <Header />
       <MainContent />
       <Projects />
+      <Footer />
     </Box>
   );
 }

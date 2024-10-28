@@ -1,0 +1,55 @@
+.footer {
+    margin-top: rem(120px);
+    border-top: 2px solid light-dark(#000000, #ffffff);
+    background-color: light-dark(#e6e6e6, #1f1f1f);
+  }
+  
+  .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: var(--mantine-spacing-xl);
+    padding-bottom: var(--mantine-spacing-xl);
+  
+    @media (max-width: $mantine-breakpoint-xs) {
+      flex-direction: column;
+    }
+  }
+  
+  .links {
+    @media (max-width: $mantine-breakpoint-xs) {
+      margin-top: var(--mantine-spacing-md);
+    }
+  }
+
+  .linkedin {
+    color: #3ca3da;
+  
+    :hover {
+      color: #0077B5;
+    }
+  }
+  
+  .github {
+    color: white;
+  
+    :hover {
+      color:rgb(160, 160, 160);
+    }
+  }
+  
+  .mail {
+    color: #eea546;
+  
+    :hover {
+      color: #e68c18;
+    }
+  }
+  
+  .resume {
+    color: #f35c5c;
+  
+    :hover {
+      color: #fc4444;
+    }
+  }
