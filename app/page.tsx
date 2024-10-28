@@ -1,3 +1,4 @@
+import { Contact } from "@/components/Contact/Contact";
 import { Footer } from "@/components/Footer/Footer";
 import { Header } from "@/components/Header/Header";
 import MainContent from "@/components/MainContent/MainContent";
@@ -10,6 +11,7 @@ export default function Home() {
       <Header />
       <MainContent />
       <Projects />
+      <Contact />
       <Footer />
     </Box>
   );
