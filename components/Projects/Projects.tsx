@@ -1,12 +1,8 @@
-import {
-  Box,
-  Stack,
-  Title,
-  Text,
-  AspectRatio,
-} from "@mantine/core";
+import { Box, Stack, Title, Text, AspectRatio, Flex } from "@mantine/core";
 import classes from "./Projects.module.css";
 import Image from "next/image";
+import { IconExternalLink } from "@tabler/icons-react";
+import Link from "next/link";
 
 export default function Projects() {
   return (
@@ -17,7 +13,16 @@ export default function Projects() {
         </Title>
         <Box className={classes.projectsContainer}>
           <Box className={classes.textContainer}>
-            <Title order={2}>Fusion Bot</Title>
+            <Flex align="center" gap={12} my={12}>
+              <Title order={2}>Fusion Bot</Title>
+              <Link
+                href="https://github.com/FustinCS/fusion-bot-web"
+                passHref
+                target="_blank"
+              >
+                <IconExternalLink size={24} />
+              </Link>
+            </Flex>
             <Text>
               Fusion Bot is a Discord Bot as well as a website that allows users
               to track their currently watching shows and movies. Users can then
@@ -43,7 +48,16 @@ export default function Projects() {
         </Box>
         <Box className={classes.projectsContainer}>
           <Box className={classes.textContainer}>
-            <Title order={2}>PrepPal</Title>
+          <Flex align="center" gap={12} my={12}>
+              <Title order={2}>PrepPal</Title>
+              <Link
+                href="https://github.com/FustinCS/PrepPal"
+                passHref
+                target="_blank"
+              >
+                <IconExternalLink size={24} />
+              </Link>
+            </Flex>
             <Text>
               PrepPal is a web application that allows users generate meals
               based on the ingredients they input. This was my final project for
@@ -68,7 +82,16 @@ export default function Projects() {
         </Box>
         <Box className={classes.projectsContainer}>
           <Box className={classes.textContainer}>
-            <Title order={2}>Search Engine</Title>
+          <Flex align="center" gap={12} my={12}>
+              <Title order={2}>Search Engine</Title>
+              <Link
+                href="https://github.com/FustinCS"
+                passHref
+                target="_blank"
+              >
+                <IconExternalLink size={24} />
+              </Link>
+            </Flex>
             <Text>
               My search engine was one of my class projects for UC Irvine. We
               built a search engine completely from scratch using Python. There

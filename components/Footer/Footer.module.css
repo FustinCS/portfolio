@@ -31,7 +31,7 @@
   }
   
   .github {
-    color: white;
+    color: dark-light(var(--mantine-color-black), var(--mantine-color-white));
   
     :hover {
       color:rgb(160, 160, 160);

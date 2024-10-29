@@ -9,19 +9,23 @@
     display: none;
   }
 
-  ::selection {
-    background-color: rgba(174, 255, 174, 0.3);
-  }
-
 }
   
 
 :root[data-mantine-color-scheme="light"] {
-  --grid-line-color: rgb(240, 240, 240);
+  --grid-line-color: rgb(228, 228, 228);
+
+  ::selection {
+    background-color: rgba(36, 146, 36, 0.3);
+  }
 }
 
 :root[data-mantine-color-scheme="dark"] {
   --grid-line-color: rgb(39, 49, 46);
+
+  ::selection {
+    background-color: rgba(174, 255, 174, 0.3);
+  }
 }
 
 body {

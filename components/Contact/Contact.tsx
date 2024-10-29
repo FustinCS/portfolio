@@ -27,7 +27,7 @@ export function Contact() {
   });
 
   return (
-    <Box className={classes.contactContainer}>
+    <Box className={classes.contactContainer} id="Contact">
       <form onSubmit={form.onSubmit(() => {})}>
         <Title
           order={2}
@@ -77,7 +77,7 @@ export function Contact() {
         />
 
         <Group justify="center" mt="xl">
-          <Button type="submit" size="md">
+          <Button type="submit" size="md" color="green">
             Send message
           </Button>
         </Group>
