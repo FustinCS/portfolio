@@ -55,6 +55,7 @@ export default function MainContent() {
             href="https://www.linkedin.com/in/justinjue/"
             className={classes.linkedin}
             target="_blank"
+            passHref
           >
             <LinkedInLogoIcon className="h-8 w-8" />
           </Link>
@@ -62,6 +63,7 @@ export default function MainContent() {
             href="https://github.com/FustinCS"
             className={classes.github}
             target="_blank"
+            passHref
           >
             <GitHubLogoIcon className="h-8 w-8" />
           </Link>
@@ -69,6 +71,7 @@ export default function MainContent() {
             href="mailto:justinjue03@gmail.com"
             className={classes.mail}
             target="_blank"
+            passHref
           >
             <IconMail className="h-8 w-8" />
           </Link>
@@ -76,6 +79,7 @@ export default function MainContent() {
             href="https://drive.google.com/file/d/1khx8bB25q_A4n29uxfMA8C2m1X0vonxp/view?usp=sharing"
             className={classes.resume}
             target="_blank"
+            passHref
           >
             <IconFileDescription className="h-8 w-8" />
           </Link>
